@@ -12,6 +12,8 @@
 		F99C43692B65654600933EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F99C43682B65654600933EAD /* Assets.xcassets */; };
 		F99C436C2B65654600933EAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F99C436B2B65654600933EAD /* Preview Assets.xcassets */; };
 		F99C43732B659D7000933EAD /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99C43722B659D7000933EAD /* CardView.swift */; };
+		F99C43752B65F57B00933EAD /* MemorizeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99C43742B65F57B00933EAD /* MemorizeGame.swift */; };
+		F99C43772B65F81300933EAD /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99C43762B65F81300933EAD /* EmojiMemoryGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		F99C43682B65654600933EAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F99C436B2B65654600933EAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F99C43722B659D7000933EAD /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		F99C43742B65F57B00933EAD /* MemorizeGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeGame.swift; sourceTree = "<group>"; };
+		F99C43762B65F81300933EAD /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			children = (
 				F99C43642B65654200933EAD /* FunHelloApp.swift */,
 				F99C43662B65654200933EAD /* ContentView.swift */,
+				F99C43742B65F57B00933EAD /* MemorizeGame.swift */,
+				F99C43762B65F81300933EAD /* EmojiMemoryGame.swift */,
 				F99C43722B659D7000933EAD /* CardView.swift */,
 				F99C43682B65654600933EAD /* Assets.xcassets */,
 				F99C436A2B65654600933EAD /* Preview Content */,
@@ -143,6 +149,8 @@
 				F99C43672B65654200933EAD /* ContentView.swift in Sources */,
 				F99C43732B659D7000933EAD /* CardView.swift in Sources */,
 				F99C43652B65654200933EAD /* FunHelloApp.swift in Sources */,
+				F99C43752B65F57B00933EAD /* MemorizeGame.swift in Sources */,
+				F99C43772B65F81300933EAD /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
