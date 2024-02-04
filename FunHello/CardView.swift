@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct CardView: View {
-    let card: MemoryGame<String>.Card
+    typealias Card = MemoryGame<String>.Card
     
-    init(_ card: MemoryGame<String>.Card) {
+    let card: Card
+    
+    init(_ card: Card) {
         self.card = card
     }
     
@@ -30,5 +32,18 @@ struct CardView: View {
                 .opacity(card.isFaceUp ? 0 : 1)
         }
         .opacity(card.isFaceUp || !card.isMatched ? 1 : 0)
+    }
+}
+
+struct CardView_Previews: PreviewProvider {
+    typealias Card = CardView.Card
+    
+    static var previews: some View {
+        HStack {
+            CardView(Card(content: "X", id: "test1"))
+            CardView(Card(isFaceUp: true, content: "X", id: "test2"))
+        }
+            .padding()
+            .foregroundColor(.green)
     }
 }

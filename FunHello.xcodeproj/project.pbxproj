@@ -14,6 +14,7 @@
 		F99C43732B659D7000933EAD /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99C43722B659D7000933EAD /* CardView.swift */; };
 		F99C43752B65F57B00933EAD /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99C43742B65F57B00933EAD /* MemoryGame.swift */; };
 		F99C43772B65F81300933EAD /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99C43762B65F81300933EAD /* EmojiMemoryGame.swift */; };
+		F99C43792B674D4500933EAD /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99C43782B674D4500933EAD /* AspectVGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		F99C43722B659D7000933EAD /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		F99C43742B65F57B00933EAD /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 		F99C43762B65F81300933EAD /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		F99C43782B674D4500933EAD /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				F99C43642B65654200933EAD /* FunHelloApp.swift */,
 				F99C43662B65654200933EAD /* EmojiMemoryGameView.swift */,
+				F99C43782B674D4500933EAD /* AspectVGrid.swift */,
 				F99C43742B65F57B00933EAD /* MemoryGame.swift */,
 				F99C43762B65F81300933EAD /* EmojiMemoryGame.swift */,
 				F99C43722B659D7000933EAD /* CardView.swift */,
@@ -148,6 +151,7 @@
 			files = (
 				F99C43672B65654200933EAD /* EmojiMemoryGameView.swift in Sources */,
 				F99C43732B659D7000933EAD /* CardView.swift in Sources */,
+				F99C43792B674D4500933EAD /* AspectVGrid.swift in Sources */,
 				F99C43652B65654200933EAD /* FunHelloApp.swift in Sources */,
 				F99C43752B65F57B00933EAD /* MemoryGame.swift in Sources */,
 				F99C43772B65F81300933EAD /* EmojiMemoryGame.swift in Sources */,
